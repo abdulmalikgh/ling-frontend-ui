@@ -1,5 +1,5 @@
 <template>
-   <div class="row justify-content-center inner-content-wrapper">
+   <div class="row justify-content-center inner-content-wrapper m-0">
       <div class="col-md-12 navigation">
           <h1> <button class="arrow-btn">
             <i  class="fas fa-long-arrow-alt-left"></i>
@@ -70,4 +70,10 @@ ul li a.active {
 .fa-long-arrow-alt-left{
   font-size: 1.4em;
 }
+@media screen and (max-width:768px) {
+    .inner-content-wrapper{
+        padding: 3rem 5%;
+    }
+}
+
 </style>
