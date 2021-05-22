@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .inner-content-wrapper{
-  padding: 3rem 12%;
+  padding: 2rem 12%;
 }
 .arrow-btn{
   outline: none;

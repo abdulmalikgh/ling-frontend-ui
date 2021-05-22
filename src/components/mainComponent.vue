@@ -1,17 +1,18 @@
 <template>
     <div class="row justify-content-between card-container">
 
-        <div class="col-md-5 my-2 my-card card">
+        <div class="col-md-5 my-2 my-card px-0">
 
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center px-0">
 
                 <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" class="my-card-img" alt="">
+                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
                 </div>
-                <div class="col-5 col-md-5 col-lg-5 description-container ">
-                    <h2 class="title">My Hometown</h2>
-                    <p class="actors">Actors: a b c d</p>
-                    <div class="ratings mb-2">
+
+                <div class="col-6 col-md-6 col-lg-6 description-container ">
+                    <h2 class="title mb-1">My Hometown</h2>
+                    <p class="actors mb-1">Actors: a b c d</p>
+                    <div class="ratings mb-1">
                         <i style="color:#FFCF32;" class="fas fa-star"></i>
                         <i style="color:#FFCF32;" class="fas fa-star"></i>
                         <i style="color:#FFCF32;" class="fas fa-star"></i>
@@ -24,7 +25,7 @@
                         <button class="com">Com</button>
                     </div>
                 </div>
-                <div class=" col-3 col-md-3 col-lg-3 btn-container ">
+                <div class=" col-2 col-md-2 col-lg-2 btn-container ">
                     <button class="pre">
                         Pre
                     </button>
@@ -34,188 +35,117 @@
                 </div>
 
             </div>
+        </div>
 
+        <div class="col-md-5 my-2 my-card px-0">
+
+            <div class="row justify-content-center px-0">
+
+                <div class="col-4 col-md-4 col-lg-4 image-container">
+                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-6 description-container ">
+                    <h2 class="title mb-1">My Hometown</h2>
+                    <p class="actors mb-1">Actors: a b c d</p>
+                    <div class="ratings mb-1">
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="far fa-star"></i>
+                    </div>
+                    <div class="btns">
+                        <button class="action">Action</button>
+                        <button class="lovo">Lovo</button>
+                        <button class="com">Com</button>
+                    </div>
+                </div>
+                <div class=" col-2 col-md-2 col-lg-2 btn-container ">
+                    <button class="pre">
+                        Pre
+                    </button>
+                    <button class="buy">
+                        Buy
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-5 my-2 my-card px-0">
+
+            <div class="row justify-content-center px-0">
+
+                <div class="col-4 col-md-4 col-lg-4 image-container">
+                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-6 description-container ">
+                    <h2 class="title mb-1">My Hometown</h2>
+                    <p class="actors mb-1">Actors: a b c d</p>
+                    <div class="ratings mb-1">
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="far fa-star"></i>
+                    </div>
+                    <div class="btns">
+                        <button class="action">Action</button>
+                        <button class="lovo">Lovo</button>
+                        <button class="com">Com</button>
+                    </div>
+                </div>
+                <div class=" col-2 col-md-2 col-lg-2 btn-container ">
+                    <button class="pre">
+                        Pre
+                    </button>
+                    <button class="buy">
+                        Buy
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-5 my-2 my-card px-0">
+
+            <div class="row justify-content-center px-0">
+
+                <div class="col-4 col-md-4 col-lg-4 image-container">
+                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-6 description-container ">
+                    <h2 class="title mb-1">My Hometown</h2>
+                    <p class="actors mb-1">Actors: a b c d</p>
+                    <div class="ratings mb-1">
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="far fa-star"></i>
+                    </div>
+                    <div class="btns">
+                        <button class="action">Action</button>
+                        <button class="lovo">Lovo</button>
+                        <button class="com">Com</button>
+                    </div>
+                </div>
+                <div class=" col-2 col-md-2 col-lg-2 btn-container ">
+                    <button class="pre">
+                        Pre
+                    </button>
+                    <button class="buy">
+                        Buy
+                    </button>
+                </div>
+
+            </div>
         </div>
         
-        <div class="col-md-5 my-card my-2 card">
-
-            <div class="row justify-content-center ">
-
-                <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-5 col-md-5 col-lg-5 description-container ">
-                    <h2 class="title">My Hometown</h2>
-                    <p class="actors">Actors: a b c d</p>
-                    <div class="ratings mb-2">
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="far fa-star"></i>
-                    </div>
-                    <div class="btns">
-                        <button class="action">Action</button>
-                        <button class="lovo">Lovo</button>
-                        <button class="com">Com</button>
-                    </div>
-                </div>
-                <div class=" col-3 col-md-3 col-lg-3 btn-container ">
-                    <button class="pre">
-                        Pre
-                    </button>
-                    <button class="buy">
-                        Buy
-                    </button>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-md-5 my-card my-2 card">
-
-            <div class="row justify-content-center ">
-
-                <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-5 col-md-5 col-lg-5 description-container ">
-                    <h2 class="title">My Hometown</h2>
-                    <p class="actors">Actors: a b c d</p>
-                    <div class="ratings mb-2">
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="far fa-star"></i>
-                    </div>
-                    <div class="btns">
-                        <button class="action">Action</button>
-                        <button class="lovo">Lovo</button>
-                        <button class="com">Com</button>
-                    </div>
-                </div>
-                <div class=" col-3 col-md-3 col-lg-3 btn-container ">
-                    <button class="pre">
-                        Pre
-                    </button>
-                    <button class="buy">
-                        Buy
-                    </button>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-md-5 my-card my-2 card">
-
-            <div class="row justify-content-center ">
-
-                <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-5 col-md-5 col-lg-5 description-container ">
-                    <h2 class="title">My Hometown</h2>
-                    <p class="actors">Actors: a b c d</p>
-                    <div class="ratings mb-2">
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="far fa-star"></i>
-                    </div>
-                    <div class="btns">
-                        <button class="action">Action</button>
-                        <button class="lovo">Lovo</button>
-                        <button class="com">Com</button>
-                    </div>
-                </div>
-                <div class=" col-3 col-md-3 col-lg-3 btn-container ">
-                    <button class="pre">
-                        Pre
-                    </button>
-                    <button class="buy">
-                        Buy
-                    </button>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-md-5 my-card my-2 card">
-
-            <div class="row justify-content-center ">
-
-                <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-5 col-md-5 col-lg-5 description-container ">
-                    <h2 class="title">My Hometown</h2>
-                    <p class="actors">Actors: a b c d</p>
-                    <div class="ratings mb-2">
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="far fa-star"></i>
-                    </div>
-                    <div class="btns">
-                        <button class="action">Action</button>
-                        <button class="lovo">Lovo</button>
-                        <button class="com">Com</button>
-                    </div>
-                </div>
-                <div class=" col-3 col-md-3 col-lg-3 btn-container ">
-                    <button class="pre">
-                        Pre
-                    </button>
-                    <button class="buy">
-                        Buy
-                    </button>
-                </div>
-
-            </div>
-
-        </div>
-        <div class="col-md-5 my-card my-2 card">
-
-            <div class="row justify-content-center ">
-
-                <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-5 col-md-5 col-lg-5 description-container ">
-                    <h2 class="title">My Hometown</h2>
-                    <p class="actors">Actors: a b c d</p>
-                    <div class="ratings mb-2">
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="far fa-star"></i>
-                    </div>
-                    <div class="btns">
-                        <button class="action">Action</button>
-                        <button class="lovo">Lovo</button>
-                        <button class="com">Com</button>
-                    </div>
-                </div>
-                <div class=" col-3 col-md-3 col-lg-3 btn-container ">
-                    <button class="pre">
-                        Pre
-                    </button>
-                    <button class="buy">
-                        Buy
-                    </button>
-                </div>
-
-            </div>
-
-        </div>
-
+        
     </div>
 </template>
 
@@ -229,29 +159,24 @@ export default {
 .card-container{
     border-radius: 20px 20px 0px 0px;
     background: #FFFFFF;
-    padding:2em 12%;
+    padding:1em 12%;
 }
 .my-card{
     background:#fff;
-    box-shadow: rgba(0,0,0,.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .image-container{
-    border-radius: 10px;
-    height: 150px;
+    padding-bottom: 1em;
 }
-.image-container img{
-    height: inherit;
-    width:100%;
-    
-}
+
 /* pre and buy button contents */
 .btn-container{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top:1em;
-    padding-bottom: 1em;
+    padding-top:.3em;
+    padding-bottom: 1.3em;
 }
 .btn-container button{
     border:transparent;
@@ -264,7 +189,8 @@ export default {
     font-size: 12px;
     line-height: normal;
     letter-spacing: 0px;
-    padding:5px 22px;
+    /* padding:5px 22px; */
+    padding-right: 22px;
 }
 .btn-container .buy{
     border-radius: 10px;
@@ -279,8 +205,7 @@ export default {
 }
 /* description container */
 .description-container {
-    padding-top:1em;
-    padding-bottom: 1em;
+    padding-top:.3em;
 }
 .description-container .title {
     color: #333333;
@@ -318,7 +243,7 @@ export default {
 }
 @media screen and (max-width:768px) {
     .card-container{
-        padding:2em 5%;
+        padding:1em 5%;
     }
 }
 </style>

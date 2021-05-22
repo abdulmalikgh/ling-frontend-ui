@@ -3,22 +3,23 @@
     <!-- top header component -->
     <HeaderComponent />
     <!-- main component with cards here -->
-    <mainComponent />
+    <mainComponent/>
   </div>
 </template>
 
 <script>
 import HeaderComponent from '../components/HeaderComponent'
 import mainComponent from '../components/mainComponent'
-
+import ImageCard from '../components/imageCard'
 export default {
   name: 'Home',
-  components: {HeaderComponent, mainComponent}
+  components: {HeaderComponent, mainComponent, ImageCard}
 }
 </script>
 <style scoped>
 .wrapper{
-  width: 100%;
   background: #25262C;
+  border:0;
+  margin:0;
 }
 </style>
