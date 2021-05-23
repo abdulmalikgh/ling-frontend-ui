@@ -1,17 +1,20 @@
 <template>
-   <div class="row justify-content-center inner-content-wrapper m-0">
-      <div class="col-md-12 navigation">
-          <h1> <button class="arrow-btn">
-            <i  class="fas fa-long-arrow-alt-left"></i>
-          </button> <span>熱售中</span></h1>
+    <div class="row justify-content-center inner-content-wrapper">
+      <div class="col-5 col-md-5 col-lg-5 side-one">
+        <div class="row side-one-inner">
+          <div class="col-12 col-md-12 col-lg-12">
+             <button class="arrow-btn"><i  class="fas fa-long-arrow-alt-left"></i></button>
+              <ul class="pt-5">
+                <li class="first"><a class="active" href="">Hot</a> <span class="underline"> </span> </li>
+                <li><a href="" class="soon">Soon</a></li>
+              </ul>
+          </div>
+        </div>
       </div>
-
-      <div class="sub_navigation col-md-12">
-        <ul>
-          <li class=""><a class="active" href="">Hot</a> <span class="underline"> </span> </li>
-          <li><a href="">Soon</a></li>
-        </ul>
+      <div class="col-3 col-md-3 col-lg-3 side-two">
+        <p>熱售中</p>
       </div>
+      <div class="col-4 col-md-4 col-lg-4 side-three"></div>
     </div>
 </template>
 
@@ -24,7 +27,27 @@ export default {
 
 <style scoped>
 .inner-content-wrapper{
-  padding: 2rem 12%;
+  height: 300px
+}
+
+
+
+/* curved sides */
+
+.side-one{
+  background-color: #303137;
+}
+.side-one-inner{
+ background-color:#3a3b41;
+ border-top-right-radius: 100px;
+ border-bottom-right-radius: 100px;
+ height: 300px;
+ padding-top: 2em;
+}
+.side-two{
+  padding-top:2em;
+  background-color: #303137;
+  border-top-right-radius: 200px;
 }
 .arrow-btn{
   outline: none;
@@ -42,14 +65,29 @@ h1{
   letter-spacing: 0px;
   text-align: center;
 }
+button{
+  color: #FFFFFF;
+  font-family: PingFang SC;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: center;
+}
 ul {
   font-style: none;
   font-size: 2em;
 }
+ul > li:first-of-type{
+  padding-right:30px
+}
 ul li {
   display: inline;
-  padding: 38px 22px; 
+  /* padding: 38px 22px;  */
   position: relative;
+}
+.soon {
+  opacity: 0.5;
 }
 ul li a {
   color: #FFFFFF;
@@ -59,7 +97,6 @@ ul li a {
   line-height: normal;
   letter-spacing: 0px;
   text-align: left;
-  
   text-decoration: none;
  
 }
@@ -68,12 +105,23 @@ ul li a.active {
   padding-bottom: 5px;
 }
 .fa-long-arrow-alt-left{
-  font-size: 1.4em;
+  font-size: 16px;
+}
+p{
+  color: #FFFFFF;
+  font-family: PingFang SC;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0px;
+  text-align: left;
 }
 @media screen and (max-width:768px) {
-    .inner-content-wrapper{
-        padding: 3rem 5%;
-    }
-}
 
+}
+@media screen and (max-width:376px) {
+  ul > li:first-of-type{
+  padding-right:12px
+}
+}
 </style>

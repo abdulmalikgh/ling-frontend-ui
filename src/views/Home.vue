@@ -19,6 +19,7 @@ export default {
 <style scoped>
 .wrapper{
   background: #25262C;
+  width:100%;
   border:0;
   margin:0;
 }

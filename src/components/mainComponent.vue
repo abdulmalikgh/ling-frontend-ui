@@ -37,6 +37,78 @@
             </div>
         </div>
 
+         <div class="col-md-5 my-2 my-card px-0">
+
+            <div class="row justify-content-center px-0">
+
+                <div class="col-4 col-md-4 col-lg-4 image-container">
+                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-6 description-container ">
+                    <h2 class="title mb-1">My Hometown</h2>
+                    <p class="actors mb-1">Actors: a b c d</p>
+                    <div class="ratings mb-1">
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="far fa-star"></i>
+                    </div>
+                    <div class="btns">
+                        <button class="action">Action</button>
+                        <button class="lovo">Lovo</button>
+                        <button class="com">Com</button>
+                    </div>
+                </div>
+                <div class=" col-2 col-md-2 col-lg-2 btn-container ">
+                    <button class="pre">
+                        Pre
+                    </button>
+                    <button class="buy">
+                        Buy
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-5 my-2 my-card px-0">
+
+            <div class="row justify-content-center px-0">
+
+                <div class="col-4 col-md-4 col-lg-4 image-container">
+                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
+                </div>
+
+                <div class="col-6 col-md-6 col-lg-6 description-container ">
+                    <h2 class="title mb-1">My Hometown</h2>
+                    <p class="actors mb-1">Actors: a b c d</p>
+                    <div class="ratings mb-1">
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="fas fa-star"></i>
+                        <i style="color:#FFCF32;" class="far fa-star"></i>
+                    </div>
+                    <div class="btns">
+                        <button class="action">Action</button>
+                        <button class="lovo">Lovo</button>
+                        <button class="com">Com</button>
+                    </div>
+                </div>
+                <div class=" col-2 col-md-2 col-lg-2 btn-container ">
+                    <button class="pre">
+                        Pre
+                    </button>
+                    <button class="buy">
+                        Buy
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        
         <div class="col-md-5 my-2 my-card px-0">
 
             <div class="row justify-content-center px-0">
@@ -157,9 +229,10 @@ export default {
 
 <style scoped>
 .card-container{
-    border-radius: 20px 20px 0px 0px;
     background: #FFFFFF;
     padding:1em 12%;
+    position:relative;
+    top:-150px;
 }
 .my-card{
     background:#fff;
