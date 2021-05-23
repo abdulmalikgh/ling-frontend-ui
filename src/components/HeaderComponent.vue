@@ -39,9 +39,9 @@ export default {
 }
 .side-one-inner{
  background-color:#3a3b41;
- border-top-right-radius: 100px;
+ border-top-right-radius: 80px;
  border-bottom-right-radius: 100px;
- height: 300px;
+ height: 220px;
  padding-top: 2em;
 }
 .side-two{

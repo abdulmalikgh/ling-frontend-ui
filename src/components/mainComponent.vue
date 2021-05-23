@@ -108,7 +108,7 @@
 
             </div>
         </div>
-        
+
         <div class="col-md-5 my-2 my-card px-0">
 
             <div class="row justify-content-center px-0">
@@ -232,7 +232,9 @@ export default {
     background: #FFFFFF;
     padding:1em 12%;
     position:relative;
-    top:-150px;
+    top:-160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .my-card{
     background:#fff;
