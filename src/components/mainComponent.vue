@@ -1,7 +1,7 @@
 <template>
     <div class="row justify-content-between card-container">
 
-        <div class="col-md-5 my-2 my-card px-0">
+        <!-- <div class="col-md-5 my-2 my-card px-0" >
 
             <div class="row justify-content-center px-0">
 
@@ -35,30 +35,28 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
 
-         <div class="col-md-5 my-2 my-card px-0">
+         <div class="col-md-5 my-2 my-card px-0" v-for="(hot, key) in hots" :key="key">
 
             <div class="row justify-content-center px-0">
 
                 <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
+                    <img :src="hot.img_str" height="140" class="my-card-img" alt="">
                 </div>
 
                 <div class="col-6 col-md-6 col-lg-6 description-container ">
-                    <h2 class="title mb-1">My Hometown</h2>
-                    <p class="actors mb-1">Actors: a b c d</p>
-                    <div class="ratings mb-1">
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="far fa-star"></i>
+                    <h2 class="title mb-1">
+                        {{hot.english_name}}</h2>
+                    <p class="actors mb-1">
+                        Actors: a b c d</p>
+                    <div class="ratings mb-1"><AwesomeVueStarRating
+                         :star="hot.rate/2"
+                         :hasdescription="false"
+                         :hasresults="false"></AwesomeVueStarRating>
                     </div>
-                    <div class="btns">
-                        <button class="action">Action</button>
-                        <button class="lovo">Lovo</button>
-                        <button class="com">Com</button>
+                    <div class="btns" >
+                        <button v-for="(tag,index) in hot.tags.split(',')" :key="index" class="action">{{tag}} </button>
                     </div>
                 </div>
                 <div class=" col-2 col-md-2 col-lg-2 btn-container ">
@@ -73,161 +71,44 @@
             </div>
         </div>
 
-        <div class="col-md-5 my-2 my-card px-0">
-
-            <div class="row justify-content-center px-0">
-
-                <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
-                </div>
-
-                <div class="col-6 col-md-6 col-lg-6 description-container ">
-                    <h2 class="title mb-1">My Hometown</h2>
-                    <p class="actors mb-1">Actors: a b c d</p>
-                    <div class="ratings mb-1">
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="far fa-star"></i>
-                    </div>
-                    <div class="btns">
-                        <button class="action">Action</button>
-                        <button class="lovo">Lovo</button>
-                        <button class="com">Com</button>
-                    </div>
-                </div>
-                <div class=" col-2 col-md-2 col-lg-2 btn-container ">
-                    <button class="pre">
-                        Pre
-                    </button>
-                    <button class="buy">
-                        Buy
-                    </button>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="col-md-5 my-2 my-card px-0">
-
-            <div class="row justify-content-center px-0">
-
-                <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
-                </div>
-
-                <div class="col-6 col-md-6 col-lg-6 description-container ">
-                    <h2 class="title mb-1">My Hometown</h2>
-                    <p class="actors mb-1">Actors: a b c d</p>
-                    <div class="ratings mb-1">
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="far fa-star"></i>
-                    </div>
-                    <div class="btns">
-                        <button class="action">Action</button>
-                        <button class="lovo">Lovo</button>
-                        <button class="com">Com</button>
-                    </div>
-                </div>
-                <div class=" col-2 col-md-2 col-lg-2 btn-container ">
-                    <button class="pre">
-                        Pre
-                    </button>
-                    <button class="buy">
-                        Buy
-                    </button>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="col-md-5 my-2 my-card px-0">
-
-            <div class="row justify-content-center px-0">
-
-                <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
-                </div>
-
-                <div class="col-6 col-md-6 col-lg-6 description-container ">
-                    <h2 class="title mb-1">My Hometown</h2>
-                    <p class="actors mb-1">Actors: a b c d</p>
-                    <div class="ratings mb-1">
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="far fa-star"></i>
-                    </div>
-                    <div class="btns">
-                        <button class="action">Action</button>
-                        <button class="lovo">Lovo</button>
-                        <button class="com">Com</button>
-                    </div>
-                </div>
-                <div class=" col-2 col-md-2 col-lg-2 btn-container ">
-                    <button class="pre">
-                        Pre
-                    </button>
-                    <button class="buy">
-                        Buy
-                    </button>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="col-md-5 my-2 my-card px-0">
-
-            <div class="row justify-content-center px-0">
-
-                <div class="col-4 col-md-4 col-lg-4 image-container">
-                    <img src="../assets/矩形备份_@3x.png" height="140" class="my-card-img" alt="">
-                </div>
-
-                <div class="col-6 col-md-6 col-lg-6 description-container ">
-                    <h2 class="title mb-1">My Hometown</h2>
-                    <p class="actors mb-1">Actors: a b c d</p>
-                    <div class="ratings mb-1">
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="fas fa-star"></i>
-                        <i style="color:#FFCF32;" class="far fa-star"></i>
-                    </div>
-                    <div class="btns">
-                        <button class="action">Action</button>
-                        <button class="lovo">Lovo</button>
-                        <button class="com">Com</button>
-                    </div>
-                </div>
-                <div class=" col-2 col-md-2 col-lg-2 btn-container ">
-                    <button class="pre">
-                        Pre
-                    </button>
-                    <button class="buy">
-                        Buy
-                    </button>
-                </div>
-
-            </div>
-        </div>
-        
-        
     </div>
 </template>
 
 <script>
-export default {
+import axios from 'axios'
+import AwesomeVueStarRating from  'awesome-vue-star-rating'
 
+export default {
+    name:'main-component',
+    components: {AwesomeVueStarRating},
+    data() {
+        return {
+            hots:[]
+        }
+    },
+    // filters() {
+    //     tags() {
+    //         return 
+    //     }
+    // },
+    methods: {
+        fetchHot() {
+            axios.post(`https://api.kertescinema.com.tw/online/movie/hot/${1}`).then( response => {
+                this.hots = response.data.data
+                console.log('data', response.data.data)
+            }).catch( err => console.log(err))
+        }
+    },
+    created() {
+        this.fetchHot()
+    }
 }
 </script>
 
 <style scoped>
+img{
+    border-radius: 10px;
+}
 .card-container{
     background: #FFFFFF;
     padding:1em 12%;
