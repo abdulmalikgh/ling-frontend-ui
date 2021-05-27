@@ -60,9 +60,9 @@
                     </div>
                 </div>
                 <div class=" col-2 col-md-2 col-lg-2 btn-container ">
-                    <button class="pre">
+                    <a class="link pre" :href="hot.preview" target="_blank">
                         Pre
-                    </button>
+                    </a>
                     <button class="buy">
                         Buy
                     </button>
@@ -94,18 +94,28 @@ export default {
     methods: {
         fetchHot() {
             axios.post(`https://api.kertescinema.com.tw/online/movie/hot/${1}`).then( response => {
+                console.log(response.data.data)
                 this.hots = response.data.data
-                console.log('data', response.data.data)
             }).catch( err => console.log(err))
         }
     },
     created() {
-        this.fetchHot()
+            this.fetchHot()
     }
 }
 </script>
 
 <style scoped>
+.link{
+    color: #FF5853;
+font-family: PingFang SC;
+font-weight: regular;
+font-size: 12px;
+line-height: normal;
+letter-spacing: 0px;
+text-align: left;
+text-decoration: none;
+}
 img{
     border-radius: 10px;
 }
